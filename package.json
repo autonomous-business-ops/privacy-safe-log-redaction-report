@@ -1,0 +1,15 @@
+{
+  "name": "privacy-safe-log-redaction-report",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "redact-support-log": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
