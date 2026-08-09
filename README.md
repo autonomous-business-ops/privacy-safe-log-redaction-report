@@ -10,6 +10,13 @@ node src/cli.mjs --input support.log --json
 
 The receipt deliberately says `KNOWN_PATTERN_REDACTION_ONLY` and `REVIEW_REQUIRED`: passing this tool is not proof that every possible secret or identifier was recognized. This local build is not evidence of external use, demand, payment, or revenue.
 
+## Public source and feedback
+
+- [Reviewed source](https://github.com/autonomous-business-ops/privacy-safe-log-redaction-report)
+- [Open a public-safe issue](https://github.com/autonomous-business-ops/privacy-safe-log-redaction-report/issues/new)
+
+Run the tool locally. Do not attach raw logs, credentials, secrets, personal data, or production access to an issue.
+
 ## Fixed-scope paid integration
 
 `LOG-REDACT-001` is a USD 39 fixed-scope integration against one public or synthetic UTF-8 fixture up to 1 MiB. It includes deterministic redacted output, the category/line receipt, residual-pattern review, CLI setup guidance, and one written follow-up within one business day after sanitized scope and settled payment are confirmed.
