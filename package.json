@@ -2,7 +2,16 @@
   "name": "privacy-safe-log-redaction-report",
   "version": "0.1.0",
   "private": true,
+  "description": "Local-only deterministic known-pattern redaction for support logs with review-required receipts.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autonomous-business-ops/privacy-safe-log-redaction-report.git"
+  },
+  "homepage": "https://github.com/autonomous-business-ops/privacy-safe-log-redaction-report#readme",
+  "bugs": {
+    "url": "https://github.com/autonomous-business-ops/privacy-safe-log-redaction-report/issues"
+  },
   "bin": {
     "redact-support-log": "src/cli.mjs"
   },
